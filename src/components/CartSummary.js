@@ -4,7 +4,7 @@ import minusIcon from "../images/minus.svg";
 import plusIcon from "../images/plus.svg";
 import cancelIcon from "../images/cancel.svg";
 
-export default function CartSummaryPage() {
+export default function CartSummary() {
   const navigate = useNavigate();
   const location = useLocation();
   const [cartItems, setCartItems] = useState(location.state?.cart || []);

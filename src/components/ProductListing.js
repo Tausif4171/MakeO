@@ -5,7 +5,7 @@ import cartIcon from "../images/cart.svg";
 import searchIcon from "../images/search.svg";
 import { products } from "../data/products";
 
-export default function ProductListingPage() {
+export default function ProductListing() {
   const [filteredProducts, setFilteredProducts] = useState(products);
   const [categoryFilter, setCategoryFilter] = useState("");
   const [sizeFilter, setSizeFilter] = useState("");
@@ -16,7 +16,7 @@ export default function ProductListingPage() {
   const navigate = useNavigate();
 
   const handleViewCart = () => {
-    navigate("/summary", { state: { cart } });
+    navigate("/cart-summary", { state: { cart } });
   };
 
   useEffect(() => {
@@ -140,12 +140,12 @@ export default function ProductListingPage() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-secondary mt-8" onClick={resetFilters}>
+          <button className="btn btn-secondary md:mt-8" onClick={resetFilters}>
             Reset Filters
           </button>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 md:mt-8">
           <div className="relative">
             <img
               alt=""
@@ -158,6 +158,7 @@ export default function ProductListingPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="input input-bordered w-full pl-10"
+              style={{ outline: "none" }}
             />
           </div>
           <button

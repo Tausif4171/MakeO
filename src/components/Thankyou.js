@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ThankYouPage() {
+export default function ThankYou() {
   return (
     <div className=" mx-auto p-6 text-center bg-gray-100 min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold mb-4 text-blue-600">Thank You! 🎉</h1>
