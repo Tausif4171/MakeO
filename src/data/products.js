@@ -1,0 +1,123 @@
+import classicHoodie from "../images/classic-hoodie.jpeg";
+import slimFitTShirt from "../images/slim-fit-tshirt.jpeg";
+import vintageDenimJacket from "../images/vintage-denim-jacket.jpeg";
+import graphicPrintHoodie from "../images/graphic-print-hoodie.jpeg";
+import VNeckTShirt from "../images/vneck-tshirt.jpeg";
+import leatherBikerJacket from "../images/leather-biker-jacket.webp";
+import zipUpHoodie from "../images/zipup-hoodie.jpeg";
+import crewNeckTShirt from "../images/crew-neck-tshirt.jpeg";
+import windbreakerJacket from "../images/windbreaker-jacket.avif";
+import oversizedHoodie from "../images/oversized-hoodie.jpeg";
+
+export const products = [
+  {
+    id: 1,
+    name: "Classic Hoodie",
+    image: classicHoodie,
+    price: 49.99,
+    category: "hoodie",
+    size: "XL",
+    color: "Black",
+    inStock: true,
+    availableQuantity: 50,
+  },
+  {
+    id: 2,
+    name: "Slim Fit T-Shirt",
+    image: slimFitTShirt,
+    price: 24.99,
+    category: "t-shirt",
+    size: "M",
+    color: "White",
+    inStock: true,
+    availableQuantity: 100,
+  },
+  {
+    id: 3,
+    name: "Vintage Denim Jacket",
+    image: vintageDenimJacket,
+    price: 79.99,
+    category: "jacket",
+    size: "L",
+    color: "Blue",
+    inStock: true,
+    availableQuantity: 12,
+  },
+  {
+    id: 4,
+    name: "Graphic Print Hoodie",
+    image: graphicPrintHoodie,
+    price: 54.99,
+    category: "hoodie",
+    size: "S",
+    color: "Gray",
+    inStock: true,
+    availableQuantity: 75,
+  },
+  {
+    id: 5,
+    name: "V-Neck T-Shirt",
+    image: VNeckTShirt,
+    price: 19.99,
+    category: "t-shirt",
+    size: "L",
+    color: "Red",
+    inStock: true,
+    availableQuantity: 120,
+  },
+  {
+    id: 6,
+    name: "Leather Biker Jacket",
+    image: leatherBikerJacket,
+    price: 129.99,
+    category: "jacket",
+    size: "M",
+    color: "Black",
+    inStock: true,
+    availableQuantity: 30,
+  },
+  {
+    id: 7,
+    name: "Zip-Up Hoodie",
+    image: zipUpHoodie,
+    price: 59.99,
+    category: "hoodie",
+    size: "L",
+    color: "Navy",
+    inStock: true,
+    availableQuantity: 60,
+  },
+  {
+    id: 8,
+    name: "Crew Neck T-Shirt",
+    image: crewNeckTShirt,
+    price: 22.99,
+    category: "t-shirt",
+    size: "XL",
+    color: "Green",
+    inStock: true,
+    availableQuantity: 90,
+  },
+  {
+    id: 9,
+    name: "Windbreaker Jacket",
+    image: windbreakerJacket,
+    price: 69.99,
+    category: "jacket",
+    size: "S",
+    color: "Yellow",
+    inStock: true,
+    availableQuantity: 40,
+  },
+  {
+    id: 10,
+    name: "Oversized Hoodie",
+    image: oversizedHoodie,
+    price: 64.99,
+    category: "hoodie",
+    size: "XXL",
+    color: "Pink",
+    inStock: true,
+    availableQuantity: 35,
+  },
+];
