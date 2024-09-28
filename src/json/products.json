@@ -6,7 +6,7 @@
     "price": 49.99,
     "category": "hoodie",
     "size": "XL",
-    "color": "Black",
+    "color": "White",
     "inStock": true,
     "availableQuantity": 50
   },
@@ -17,7 +17,7 @@
     "price": 24.99,
     "category": "t-shirt",
     "size": "M",
-    "color": "White",
+    "color": "Dark gray",
     "inStock": true,
     "availableQuantity": 100
   },
@@ -39,7 +39,7 @@
     "price": 54.99,
     "category": "hoodie",
     "size": "S",
-    "color": "Gray",
+    "color": "Black",
     "inStock": true,
     "availableQuantity": 75
   },
@@ -50,7 +50,7 @@
     "price": 19.99,
     "category": "t-shirt",
     "size": "L",
-    "color": "Red",
+    "color": "Dark gray",
     "inStock": true,
     "availableQuantity": 120
   },
@@ -94,7 +94,7 @@
     "price": 69.99,
     "category": "jacket",
     "size": "S",
-    "color": "Yellow",
+    "color": "Black",
     "inStock": true,
     "availableQuantity": 40
   },
@@ -105,7 +105,7 @@
     "price": 64.99,
     "category": "hoodie",
     "size": "XXL",
-    "color": "Pink",
+    "color": "Black",
     "inStock": true,
     "availableQuantity": 35
   }

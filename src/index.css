@@ -15,3 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.table-header {
+  @apply py-2 px-4 text-left text-[14px];
+}

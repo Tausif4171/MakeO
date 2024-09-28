@@ -20,8 +20,8 @@ export const CartItem = ({ item, updateQuantity, removeItem }) => {
           <span>{item.name}</span>
         </div>
       </td>
-      <td className="py-2 px-4">${item.price.toFixed(2)}</td>
-      <td className="py-2 px-4">
+      <td className="py-2 px-4 text-left">${item.price.toFixed(2)}</td>
+      <td className="py-2 px-4 text-left">
         <div className="flex items-center space-x-2">
           <button
             className="p-1 border rounded-md"
@@ -38,7 +38,7 @@ export const CartItem = ({ item, updateQuantity, removeItem }) => {
           </button>
         </div>
       </td>
-      <td className="py-2 px-4 text-right">
+      <td className="py-2 px-4 text-left">
         ${(item.price * item.quantity).toFixed(2)}
       </td>
     </tr>

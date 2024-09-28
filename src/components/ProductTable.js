@@ -8,23 +8,26 @@ export function ProductTable({
   handleCheckboxChange,
   addToCart,
 }) {
+  const headers = ["Image", "Name", "Color", "Stock", "Price", "Buy"];
   return (
-    <div className="overflow-x-auto">
-      <table className="min-w-full bg-white border border-gray-300 shadow-lg rounded-lg overflow-hidden">
+    <div
+      className="overflow-x-auto"
+      style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+    >
+      <table className="min-w-full bg-white rounded-lg overflow-hidden">
         <thead className="bg-gray-200">
           <tr>
-            <th className="py-2 px-4 text-left text-[14px]">Image</th>
-            <th className="py-2 px-4 text-left text-[14px]">Name</th>
-            <th className="py-2 px-4 text-left text-[14px]">Color</th>
-            <th className="py-2 px-4 text-left text-[14px]">Stock</th>
-            <th className="py-2 px-4 text-left text-[14px]">Price</th>
-            <th className="py-2 px-4 text-left text-[14px]">Buy</th>
+            {headers.map((header, index) => (
+              <th key={index} className="table-header">
+                {header}
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>
           {products.length > 0 ? (
             products.map((product) => (
-              <tr key={product.id}>
+              <tr key={product.id} className="hover:bg-gray-100">
                 <td className="py-2 px-4">
                   <img
                     src={product.image}
